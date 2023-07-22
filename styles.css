@@ -57,9 +57,9 @@ nav {
 .item {
   margin: 15px auto;
 }
-/* i {
+i {
   margin: auto;
-} */
+}
 
 .logo_name {
   display: none;
@@ -130,9 +130,13 @@ main {
   nav {
     background-color: purple;
     color: white;
+    transition: all 0.3s;
   }
   main {
     background-color: white;
+  }
+  i {
+    margin: 0px;
   }
 }
 
@@ -149,22 +153,22 @@ main {
   main {
     background-color: red;
   }
- 
+
   .item {
     display: flex;
     gap: 1em;
   }
 
-  i {
+  /* i {
     margin: auto;
-  }
+  } */
 
   .logo_name {
     display: inline-block;
     color: var(--pinkClr);
     font-size: 15px;
   }
- 
+
   /* .fa-magnifying-glass {
   width: 5px;
   height: 5px;
@@ -177,7 +181,7 @@ main {
     margin: 35px 0px 20px;
     gap: 10px;
   }
-  
+
   input {
     display: inline-block;
     border: none;
