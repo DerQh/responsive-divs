@@ -155,9 +155,9 @@ main {
     gap: 1em;
   }
 
-  /* i {
+  i {
     margin: auto;
-  } */
+  }
 
   .logo_name {
     display: inline-block;
